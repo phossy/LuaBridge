@@ -63,7 +63,7 @@ public:
 
   Iterator& operator++ ()
   {
-    int result = 0;//lua_next (m_L);
+    /*int result = 0;//lua_next (m_L); */
     return *this;
   }
 
